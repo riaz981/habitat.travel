@@ -1,0 +1,148 @@
+/* No margin or padding in the body */
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Headline contains the background image as well as all text and form */
+
+#headline
+{
+    padding: 0.8em;
+    color: white;
+    font-family:Verdana,sans-serif;
+    background-image: url('../img/splashbackground_scaled.jpg');
+    background-color: black;
+    background-size: cover;
+    height: 100%;
+}
+
+#container
+{
+    position: relative;
+}
+
+
+#headline h1
+{
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+#headline h2
+{
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#headline #blurb
+{
+    font-weight: 300;
+    font-size: 18px;
+    padding 3px;
+}
+
+#headline #brands
+{
+
+    padding-left: 0.5cm;
+    background-color: #39b1a4;
+    background-color: rgba(57,177, 164, 0.7);
+}
+
+#headstuff{
+    padding-left: 0.5cm;
+}
+
+/* Margin between h2 and its border */
+
+#brands h2{
+    padding-top: 0.3em;
+}
+
+/* Link behaviour */
+
+a:link
+{
+    color: white;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+    color: black;
+}
+
+
+
+/* Form look and feel */
+
+#headline #register
+{
+    margin-top: 1em;
+    background-color: #39b1a4;
+    background-color: rgba(57,177, 164, 0.7);
+    padding: 1em;
+    width: 20em;
+    margin-left: 38%;
+    margin:0px auto;
+}
+
+#headline #register h2
+{
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+#headline #register label
+{
+    font-size: 1.2em;
+    font-weight: 200;
+    padding-top: 12px;
+    display: block;
+}
+
+#headline #register input
+{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#headline #register textarea
+{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#headline #register input[type=submit]
+{
+    background-color: hsl(8, 70%, 54%);
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    font-size: 18px;
+}
